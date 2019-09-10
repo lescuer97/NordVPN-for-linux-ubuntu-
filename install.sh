@@ -16,6 +16,7 @@ cd ~
 sudo wget https://github.com/lescuer97/NordVPN-for-linux-ubuntu-/tree/master/vpn
 
 cd vpn
+chmod +x canada.sh germany.sh hk.sh holand.sh singapore.sh switzerland.sh uk.sh us.sh
 
 ls
 
