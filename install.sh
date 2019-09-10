@@ -13,9 +13,10 @@ sudo apt install nordvpn
 
 cd ~
 
-#cambiar por vpn
-mkdir vpn
+sudo wget https://github.com/lescuer97/NordVPN-for-linux-ubuntu-/tree/master/vpn
 
-cd ~/vpn/
+cd vpn
 
-sudo wget
+ls
+
+echo chose the script you desire
