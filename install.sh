@@ -13,7 +13,14 @@ sudo apt install nordvpn
 
 cd ~
 
+if [which git == /usr/bin/git]
+then 
+
 git clone https://github.com/lescuer97/NordVPN-for-linux-ubuntu-.git 
+else 
+sudo apt-get install git
+git clone https://github.com/lescuer97/NordVPN-for-linux-ubuntu-.git
+fi
 
 cd NordVPN-for-linux-ubuntu-
 
@@ -23,11 +30,9 @@ cd ..
 
 rm -rf NordVPN-for-linux-ubuntu-
 
-cd ~
-
 cd vpn
 
-chmod +x canada.sh germany.sh hk.sh holand.sh singapore.sh switzerland.sh uk.sh us.sh
+sudo chmod +x canada.sh germany.sh hk.sh holand.sh singapore.sh switzerland.sh uk.sh us.sh
 
 ls
 
