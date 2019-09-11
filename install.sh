@@ -17,7 +17,7 @@ git clone https://github.com/lescuer97/NordVPN-for-linux-ubuntu-.git
 
 cd NordVPN-for-linux-ubuntu-
 
-mv vpn ../../
+mv vpn ../
 
 cd ..
 
