@@ -1,5 +1,4 @@
-#! /usr/bin/bash
-
+#!/usr/bin/env bash
 nordvpn set technology openvpn
 
 nordvpn login 

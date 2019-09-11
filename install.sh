@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 #downloads nord vpn file
 
 cd ~/Downloads/
