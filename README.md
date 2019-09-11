@@ -1,14 +1,23 @@
 # NordVPN-for-linux-ubuntu-
-Repository of scripts to install and run NordVPN with one script
 
-Run this command: 
+## Introduction
 
-1- wget "https://raw.githubusercontent.com/lescuer97/NordVPN-for-linux-ubuntu-/master/install.sh" && chmod +x install.sh && ./install.sh
+Repository to install NordVPN with one script, and scripts to connect to different servers. 
 
-The script will download and install NordVPN and the special scripts for running diferent servers with this specifications:
+### Confifuration of servers
+* Technology: OpenVPN
+* Protocol: TCP
+* Cybersec: ON
+* Obfuscation: ENABLED
 
-Cybersec: on
 
-Protocol: tcp
+#### Run this command: 
 
-offuscated:on 
+$ wget "https://raw.githubusercontent.com/lescuer97/NordVPN-for-linux-ubuntu-/master/install.sh" && chmod +x install.sh && ./install.sh
+
+The script will download and install NordVPN and the scripts for conections.
+
+## NOTES: 
+
+if the OS does not have GIT installed it will install it and run git clone to download the repository. 
+
