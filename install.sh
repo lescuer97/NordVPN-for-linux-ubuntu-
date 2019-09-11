@@ -28,6 +28,7 @@ cd vpn
 
 sudo chmod +x canada.sh germany.sh hk.sh holand.sh singapore.sh switzerland.sh uk.sh us.sh
 
-ls
 
-echo chose the script you desire
+echo by default will conect to holand.sh, nordvpn disconnect to stop vpn.
+
+./holand.sh
