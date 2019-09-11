@@ -12,9 +12,10 @@ Repository to install NordVPN with one script, and scripts to connect to differe
 
 
 #### Run this command: 
+...
 
 $ wget "https://raw.githubusercontent.com/lescuer97/NordVPN-for-linux-ubuntu-/master/install.sh" && chmod +x install.sh && ./install.sh
-
+...
 The script will download and install NordVPN and the scripts for conections.
 
 ## NOTES: 
